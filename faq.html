@@ -46,8 +46,9 @@
     </section>
     <script>
       async function query(data) {
+        // TODO: Replace YOUR_SPACE and YOUR_CHATFLOW_ID with your own values below
         const response = await fetch(
-          "https://koalaflow-flowise.hf.space/api/v1/prediction/6b7e2616-f989-4e01-81c9-ff48bdd4ea44",
+          "https://YOUR_SPACE.hf.space/api/v1/prediction/YOUR_CHATFLOW_ID",
           {
             method: "POST",
             headers: {
